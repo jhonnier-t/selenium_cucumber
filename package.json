@@ -1,0 +1,14 @@
+{
+  "name": "selenium_cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "report": "node index.js"
+  },
+  "author": "Jhonnier",
+  "license": "ISC",
+  "devDependencies": {
+    "multiple-cucumber-html-reporter": "^1.21.4"
+  }
+}
