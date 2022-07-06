@@ -62,7 +62,7 @@ public  class Test extends TestBase{
     }
     @Then("check fields arent empty")
     public void check_fields_arent_empty() {
-
+        Assert.assertTrue(false);
     }
 
 }
