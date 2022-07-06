@@ -13,7 +13,7 @@ Feature: Form Fit ideas
     And cick on the Email and fill <Email>
     And cick on the Asunto and fill <Asunto>
     And cick on the Mensaje and fill <Mensaje>
-    Then verify the fields don't empty
+    Then check fields arent empty
     Examples:
       | Name     | Cel        | Email         | Asunto              | Mensaje                                          |
       | Jhonnier | 3148187000 | jho@gmail.com | Prueba Automatizada | Esto es una prueba hecha con Selenium y Cucumber |

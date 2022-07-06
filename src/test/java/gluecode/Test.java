@@ -60,8 +60,8 @@ public  class Test extends TestBase{
         WebElement mensaje = driver.findElement(formContactosPage.getMensaje());
         mensaje.sendKeys(message);
     }
-    @Then("verify the fields don't empty")
-    public void verify_the_fields_don_t_empty() {
+    @Then("check fields arent empty")
+    public void check_fields_arent_empty() {
 
     }
 
